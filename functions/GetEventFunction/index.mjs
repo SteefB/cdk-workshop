@@ -8,7 +8,7 @@ const client = new DynamoDBClient({});
 
 const dynamo = DynamoDBDocumentClient.from(client);
 
-const tableName = `Events-${process.env.ENVIRONMENT}}`;
+const tableName = `Events-${process.env.ENVIRONMENT}`;
 
 export const handler = async (event, context) => {
     let body;
