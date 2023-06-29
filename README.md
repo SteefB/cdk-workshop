@@ -10,9 +10,16 @@ Before deploying the application you need to install the CDK CLI
 npm install -g aws-cdk
 ```
 
+## Login to AWS on the jfl-plg account 
+    
+```bash
+saml2aws login --force
+```
+select the jfl-plg account (736364145277)
+
 In order to deploy the application run the following commands:
 
 ```bash
 cd cdk
-cdk deploy --all
+cdk deploy CdkWorkshopStack
 ```
