@@ -1,5 +1,6 @@
 package com.myorg;
 
+import software.amazon.awscdk.services.dynamodb.Table;
 import software.constructs.Construct;
 import software.amazon.awscdk.Stack;
 import software.amazon.awscdk.StackProps;
@@ -13,6 +14,7 @@ public class CdkWorkshopStack extends Stack {
 
     public CdkWorkshopStack(final Construct scope, final String id, final StackProps props) {
         super(scope, id, props);
+
 
         // The code that defines your stack goes here
 

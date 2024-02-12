@@ -10,9 +10,9 @@ public class CdkWorkshopApp {
     public static void main(final String[] args) {
         App app = new App();
 
-        new CdkWorkshopStack(app, "CdkWorkshopStack", StackProps.builder()
+        new CdkWorkshopStack(app, "CdkWorkshopStack-<YOURNAMEGOESHERE>", StackProps.builder()
                 .env(Environment.builder()
-                        .account("736364145277")
+                        .account("303090068351")
                         .region("eu-central-1")
                         .build())
                 .build());
